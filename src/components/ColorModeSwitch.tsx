@@ -4,7 +4,7 @@ import React from "react";
 const ColorModeSwitch = () => {
   const { toggleColorMode, colorMode } = useColorMode();
   return (
-    <HStack>
+    <HStack paddingRight={5}>
       <Switch colorScheme="green" isChecked={colorMode === "dark"} onChange={toggleColorMode} />
       <Text>Dark Mode</Text>
     </HStack>
