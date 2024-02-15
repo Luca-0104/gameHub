@@ -1,11 +1,12 @@
 ## Tech
 - React
 - Typescript
-- RAWG API 
+- RAWG API
 - Chakra-UI
 - React-Query
 - Ajax, Axios
 - React-infinite-scroll-component
+- Vercel deployment
 
 ## Architecture
 - API Client
