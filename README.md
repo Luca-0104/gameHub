@@ -4,6 +4,8 @@
 - RAWG API
 - Chakra-UI
 - React-Query
+- Zustand
+- react-router
 - Ajax, Axios
 - React-infinite-scroll-component
 - Vercel deployment
@@ -26,3 +28,4 @@
 - Screen size auto adaptation
 - Caching
 - Infinite scrolling (loading data as scrolling)
+- centralized state hook management using Zustand
