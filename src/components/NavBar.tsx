@@ -1,4 +1,4 @@
-import { HStack, Image } from '@chakra-ui/react';
+import { Box, HStack, Image } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.svg';
 import ColorModeSwitch from './ColorModeSwitch';
