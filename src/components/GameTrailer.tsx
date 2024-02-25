@@ -1,4 +1,4 @@
-import useTrailers from '../hooks/useTrailers'
+import useTrailers from '../hooks/useTrailers';
 
 type Props = {
     gameId: number
@@ -17,8 +17,12 @@ const GameTrailer = ({ gameId }: Props) => {
       src={firstVideo.data[480]}
       poster={firstVideo.preview}
       controls
+      style={{
+        width: "100%"
+      }}
     />
   ) : null;
 }
+
 
 export default GameTrailer;
