@@ -3,18 +3,19 @@
 - Typescript
 - RAWG API
 - Chakra-UI
-- React-Query
+- Ajax, Axios
+- React Query
 - Zustand
 - react-router
-- Ajax, Axios
 - React-infinite-scroll-component
-- Vercel deployment
+- Deployed to Vercel
 
 ## Architecture
 - API Client
   - HTTP Services
     - Custom Hooks
-      - Components
+      - Pages
+        - Components
 
 ## Functionalities
 - Game Searching
@@ -25,7 +26,9 @@
 - Theme switching
 - Showing supported platforms
 - Showing dynamic game rating
-- Screen size auto adaptation
+- Responsive Layout (Screen size auto adaptation)
 - Caching
 - Infinite scrolling (loading data as scrolling)
 - centralized state hook management using Zustand
+- Managing Application State with Zustand
+- Detail pages routing (React Router) with game trailer and screenshots
